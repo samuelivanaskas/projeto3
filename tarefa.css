@@ -1,0 +1,60 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: seagreen;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: khaki;
+    color: seagreen;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: khaki;
+}
+
+.section-title {
+    font-family: Pacífico,cursive;
+}
+
+.navbar-toggler {
+    background-color: khaki;
+}
+
+#sobre-a-pagina, #fotos {
+    background-color: khaki;
+}
+
+.text-colored {
+    color: seagreen;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco {
+    background-color: seagreen;
+    color: khaki;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: seagreen;
+}
+
+.social-links li {
+    display: inline;
+    text-decoration: none;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (min-width:767px) {
+    .alt img {
+        height: 467px;
+    }
+}
